@@ -3,33 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trondheim Marathon</title>
+    <title>Advancegeos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="navbar">
-        <!-- <img src="logo.png" alt="Trondheim Marathon Logo" class="logo"> -->
+        <img src="logo text.png" alt="Logo" class="logo">
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Distances</a></li>
-                <li><a href="#">Participant information</a></li>
-                <li><a href="#">Course map</a></li>
-                <li><a href="#">Registration</a></li>
-                <li><a href="#">The event</a></li>
-                <li><a href="#">Statistics</a></li>
+                <li><a href="#" onclick="document.getElementById('team').scrollIntoView({ behavior: 'smooth' });">About us</a></li>
+                <li><a href="#" onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">Services</a></li>
+                <li><a href="#" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });">Portfolio</a></li>
+                <li><a href="#" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact us</a></li>                
             </ul>
         </nav>
     </header>
 
     <section class="hero-section">
         <div class="hero-text">
-            <h1>Trondheim Marathon</h1>
-            <p>This year's running goal - September 6 2025</p>
+            <h1>Advance Geo Services</h1>
+            <p>We deliver quality digital platforms</p>
             <div class="registration-buttons">
-                <button class="individual-reg">Individual Registration</button>
-                <button class="business-reg">Business Registration</button>
+                <button class="individual-reg" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });">Our Projects</button>
+                <button class="business-reg" onclick="document.getElementById('team').scrollIntoView({ behavior: 'smooth' });">Our Team</button>
             </div>
         </div>
     </section>
+
+    <!-- Our Projects Section -->
+    <section class="projects-section" id="projects">
+        <h2>Our Projects</h2>
+        <div class="projects-list">
+            <div class="project-card">
+                <h3>Digital Mapping Platform</h3>
+                <p>Interactive web-based mapping solutions for geospatial data visualization and analysis.</p>
+            </div>
+            <div class="project-card">
+                <h3>Seismic Data Portal</h3>
+                <p>Secure cloud portal for seismic data storage, sharing, and collaboration.</p>
+            </div>
+            <div class="project-card">
+                <h3>Geological Reporting Tool</h3>
+                <p>Automated reporting system for geological surveys and project documentation.</p>
+            </div>
+            <div class="project-card">
+                <h3>Geological Reporting Tool</h3>
+                <p>Automated reporting system for geological surveys and project documentation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="services-section" id="services">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-consultancy.svg" alt="IT Consultancy Icon" />
+                </div>
+                <h3>IT Consultancy</h3>
+                <p>Expert advice and solutions to optimize your IT infrastructure and strategy.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-software.svg" alt="Software Development Icon" />
+                </div>
+                <h3>Software Development</h3>
+                <p>Custom software solutions tailored to your business needs.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-digital.svg" alt="Digital Transformation Icon" />
+                </div>
+                <h3>Digital Transformation</h3>
+                <p>Guiding your business through digital change for improved efficiency and innovation.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-database.svg" alt="Database Management Icon" />
+                </div>
+                <h3>Database Management Systems</h3>
+                <p>Reliable and scalable database solutions for secure data storage and management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="team">
+        <h2>Our Team</h2>
+        <div class="team-list">
+            <div class="team-card">
+                <h3>Jane Doe</h3>
+                <p>Lead Geoscientist</p>
+            </div>
+            <div class="team-card">
+                <h3>John Smith</h3>
+                <p>Senior Developer</p>
+            </div>
+            <div class="team-card">
+                <h3>Emily Johnson</h3>
+                <p>Project Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> r.assanov@advancegeos.com</p>
+            <p><strong>Telephone:</strong> +7 705 579 62 62</p>
+            <p><strong>Location:</strong> Aktau, Kazakhstan</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Advance Geo Services LLP. All rights reserved.</p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

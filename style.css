@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
 }
 
 .nav-links {
@@ -36,7 +36,7 @@ body {
 
 /* Hero section */
 .hero-section {
-    background-image: url('marathon-bg.jpg'); /* Replace with your image path */
+    background-image: url('background.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -104,4 +104,154 @@ body {
     background-color: #ffffff;
     color: #c40000;
     transition: background-color 0.3s, color 0.3s;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 3rem 2rem;
+    background: #f8f8f8;
+}
+
+.projects-section h2 {
+    text-align: center;
+    color: #b63131;
+    margin-bottom: 2rem;
+}
+
+.projects-section .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+    max-width: 320px;
+}
+
+.project-card h3 {
+    color: #b63131;
+}
+
+/* Team Section */
+.team-section {
+    padding: 3rem 2rem;
+    background: #f8f8f8;
+}
+
+.team-section h2 {
+    text-align: center;
+    color: #b63131;
+    margin-bottom: 2rem;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+    max-width: 260px;
+    text-align: center;
+}
+
+.team-card h3 {
+    color: #b63131;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #b63131;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem 2rem 2rem;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+
+
+
+/* Contact Section */
+
+.contact-section {
+    padding: 3rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #b63131;
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+
+/* Services Section */
+.services-section {
+    padding: 3rem 2rem;
+    background: #fff;
+}
+
+.services-section h2 {
+    text-align: center;
+    color: #b63131;
+    margin-bottom: 2rem;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.service-card {
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+    max-width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 64px;
+    background: transparent;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+.service-icon img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.2);
 }
